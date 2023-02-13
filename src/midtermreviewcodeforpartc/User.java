@@ -22,7 +22,7 @@ public class User
      */
     public User(String givenName, String givenPass)
     {
-        name = givenName;
+        name = givenName; //random edit
         password=givenPass;
     }
 

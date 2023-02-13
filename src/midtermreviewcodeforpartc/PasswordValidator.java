@@ -40,7 +40,7 @@ public class PasswordValidator {
                 validPassword=true;
             }
         }//loop only ends when password is valid so now we create the User
-        
+        // adding random comment at line 43
         User newUser = new User(userName, password);
         users[userCount] = newUser;//add the new user to the user list
         userCount++;
